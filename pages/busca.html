@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Caça Fantasmas - SesiSenai</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet"  href="../css/busca.css">
+  <script defer src="../js/busca.js"></script>
+  <link rel="shortcut icon" href="../images/logo_comp.png" type="image/x-icon">
+</head>
+<header><img id src="../images/logo_comp.png"></header>
+
+<body>   
+  <style>
+		@font-face{
+			font-family: specialFantasma;
+			src: url("../font/SpecialElite-Regular.ttf");
+		}
+	</style>
+  
+    <h2>Dispositivo Caça Fantasmas</h2>
+    <h3>SesiSenai</h3>
+  <form>
+    <label for="codigo">Fantasma:</label>
+    <input type="number" id="codigo" placeholder="Código de 1 a 10." name="codigo" required>
+    <button type="submit">Bora caçar!</button>
+  </form>
+  <div>
+    <h3 id="nome"></h3>
+    <img id="foto">
+    <p id="descricao"></p> 
+    <p id="combate"></p>
+  </div>  
+</body>
+  
+  <footer>
+    <h4>Diego de Godoi Soares - SesiSenai - Turma N1</h4>
+  </footer>
+  
+</html>

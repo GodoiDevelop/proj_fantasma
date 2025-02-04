@@ -1,0 +1,108 @@
+body{
+  align-items: center;
+    background-image:
+        url("../images/select1.png");
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+h2{
+    font-family: specialFantasma;
+    font-size: 70px;
+    color: rgb(184, 18, 18);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3{
+    font-family: specialFantasma;
+    font-size: 70px;
+    color: rgb(60, 96, 167);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h5{
+    font-family: specialFantasma;
+    font-size: 40px;
+    color: rgb(184, 18, 18);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .login__header {
+    font-family: specialFantasma;
+    font-size: 60px;
+    color: rgb(184, 18, 18);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .login-form {
+      font-family: specialFantasma;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+    }
+  
+    .login__input {
+      font-family: specialFantasma;
+      font-size: 18px;
+      border: 4px solid  rgb(60, 96, 167);
+      border-radius: 5px;
+      color: rgb(184, 18, 18);
+      margin-bottom: 10px;
+      max-width: 300px;
+      outline: none;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .login__button {
+      font-family: specialFantasma;
+      background-color: rgb(184, 18, 18);
+      border: 5px solid  rgb(60, 96, 167);
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 30px;
+      max-width: 300px;
+      padding: 15px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    ol{
+      font-family: specialFantasma;
+      color: whitesmoke;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+
+    li{
+      font-family: specialFantasma;
+      color: whitesmoke;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+   
+   
